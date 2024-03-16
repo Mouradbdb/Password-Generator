@@ -17,14 +17,14 @@ function generatePassword(len) {
 }
 
 const generateBtn = document.getElementById("generateBtn");
-const mourad = document.getElementById("lenght");
+const lenght = document.getElementById("lenght");
 const result = document.getElementById("result");
 
 
 
 generateBtn.onclick = () => {
   console.log('clicked')
-  let pass = generatePassword((mourad.value));
+  let pass = generatePassword((lenght.value));
   console.log(pass)
   result.textContent = pass;
 };
