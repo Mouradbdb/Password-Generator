@@ -1,0 +1,66 @@
+/* Hide the spinner controls */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body{
+    color: yellow;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+form{
+    border: 3px solid red;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px red;
+    align-items: center;
+    height: 70dvh;
+    justify-content: space-between;
+}
+form h1{
+    font-weight: bold;
+    font-family: verdana;
+    width: 500px;
+    text-align: center;
+}
+form button{
+    font-size: 30px;
+    border: 2px solid red;
+    background-color: yellow;
+    color: red;
+    font-family: verdana;
+    font-weight: bold;
+    
+    width: fit-content;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+form button:hover{
+    background-color: hsla(60, 100%, 50%, 0.566);
+}
+form input{
+   font-weight: bold;
+    text-align: center;
+    width: 50px;
+    padding: 10px;
+    font-size: 30px;
+}
+#result{
+    text-align: center;
+    font-size: 30px;
+}
+form label{
+    margin-right: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: verdana;
+}
